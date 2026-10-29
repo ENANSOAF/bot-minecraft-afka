@@ -16,7 +16,7 @@ http.createServer((req, res) => {
 const SERVER_HOST = 'Open-CR9X.aternos.me';
 const SERVER_PORT = 39490;
 const SERVER_VERSION = '1.21.11';
-const DISCORD_TOKEN = 'MTU1ODA0MzEyNzIzODEwMzE0MQ.GFanuo.XufOvoOb4l83hPmfJ75Qk2jclnmtwHawMQSIKY';
+const DISCORD_TOKEN = process.env.DISCORD_TOKEN ;
 
 const MINECRAFT_CHANNEL_ID = '1543903442064637972';
 const NOITU_CHANNEL_ID = '1565332399233962114';
